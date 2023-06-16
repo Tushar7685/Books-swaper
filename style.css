@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lilita+One&family=Raleway:ital@1&family=Roboto+Mono&family=Tilt+Prism&display=swap');
 
 *{
     font-family: 'Poppins',sans-serif;
@@ -34,9 +33,9 @@ header{
 }
 
 .title-name{
-    font-family: 'IBM Plex Serif', serif;
-    font-weight:bolder;
-    font-size: 2rem;
+  font-family: 'Lilita One', cursive;
+      /* font-weight:bold; */
+    font-size: 2.5rem;
 }
 .nav{
     width: 50%;
@@ -59,7 +58,7 @@ header{
 }
 
 .nav a:hover{
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 7px;
     font-weight: 500;
     background-color: rgb(126,34,226);
@@ -68,38 +67,45 @@ header{
 
   /* main section */
 
-.content{
-    background-image: url("light_background-wallpaper.jpg");
+.main{
+  display: flex;
+justify-content: space-between;
+background-image: url("light_background-wallpaper.jpg");
+height: 650px;
+}
+
+.main1
+{
+  width: 25rem;
+  height: 5rem;
+
+}
+.main2{
+  margin-top: 4rem;
+  width:54%;
+  height: auto;
+  
 }
 
 #typewriter {
-    white-space: nowrap; /* Keep the text in one line */
-    overflow: hidden; /* Hide overflowing text */
-    border-right: 0.15em solid #000; /* Add cursor effect */
-    animation: typewriter 0s steps(40, end); /* Animation duration and steps */
-  }
-  
-  @keyframes typewriter {
-    from {
-      width: 0; /* Start with no width */
-    }
-    to {
-      width: auto; /* Transition to full width */
-    }
-  }
-  .col1{
-    display: flex;
-    margin: 9rem;
-  }
-.col2{
-    display: flex;
-    margin-top: 13rem;
-    margin-left: 7.8rem;
-    
-    
+  font-family: 'Tilt Prism', cursive;
+  font-size: 2.5rem;;
+  font-weight: bolder;
+  white-space: nowrap; /* Keep the text in one line */
+  overflow: hidden; /* Hide overflowing text */
+  /*border-right: 0.15em solid #000; /* Add cursor effect*/
+  animation: typewriter 0s steps(40, end); /* Animation duration and steps */
 }
 
-.col2 a{
+@keyframes typewriter {
+  from {
+    width: 0; /* Start with no width */
+  }
+  to {
+    width: auto; /* Transition to full width */
+  }}
+
+  .buy{
     border-radius: 10px;
     padding: 15px;
     font-weight: 500;
@@ -107,31 +113,54 @@ header{
     color:white;
     font-weight: 700;
     text-decoration: none;
-  margin-right: 2.6rem;
-
-}
-  
-  .row1{
-    margin-left: 6.3rem;
+  }
+  .buy:hover{
+    background-color: rgb(254, 181, 70);
+    color: black;
+    border-top: 3px solid black;
+    padding-bottom: 0.2rem;
+  }
+  .sell{
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 500;
+    background-color: rgb(126,34,226);
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 16rem;
+  }
+  .sell:hover{
+    background-color: rgb(254, 181, 70);
+    color: black;
+    border-top: 3px solid black;
+    padding-bottom: 0.2rem
   }
   
-.row1:hover{
-  background-color: rgb(254, 181, 70);
-  color: black;
-  border-top: 3px solid black;
-  padding-bottom: 10px;
+  .headstate3{
 
-
-}
-.row2:hover{
-  background-color:rgb(254, 181, 70);
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 2rem;
+    color: #e03168;
+  }
+  .headstate1{
+    font-family: 'Bagel Fat One', cursive;
+  font-size: 2rem;
+  color: #e03168;
+} 
+.headstate2{
+  margin-left: 19rem;
+  font-size: 2rem;
   font-weight: 600;
   color: black;
-  border-top: 3px solid black;
-  padding-bottom: 10px;
-
-}
+  font-family: 'Bagel Fat One', cursive;
   
-  body{
-    overflow-x: hidden;
-  }
+}
+.buttons{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.info{
+  margin-right:2rem;
+}
