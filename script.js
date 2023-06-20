@@ -21,3 +21,32 @@ function typewriterEffect() {
 }
 
 typewriterEffect();
+
+var semesterSelect = document.getElementById('semesterSelect');
+var storedValue = localStorage.getItem('selectedSemester');
+
+if (storedValue) {
+  semesterSelect.value = storedValue;
+}
+
+semesterSelect.onchange = function() {
+  var selectedValue = this.value;
+  if (selectedValue !== "none") {
+    localStorage.setItem('selectedSemester', selectedValue);
+    window.location.href = selectedValue + '.html';
+  }
+};
+
+// Reset the selected value when the page loads
+window.onload = function() {
+  localStorage.removeItem('selectedSemester');
+  semesterSelect.value = "none";
+};
+
+
+
+
+
+
+
+ 
