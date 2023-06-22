@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lilita+One&family=Oswald:wght@500&family=Raleway:ital@1&family=Roboto+Mono&family=Rubik:wght@500&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lilita+One&family=Oswald:wght@500&family=Raleway:ital@1&family=Roboto+Mono&family=Rubik:wght@500&family=Tilt+Prism&display=swap');
 *{
     font-family: 'Poppins',sans-serif;
     margin: 0;
@@ -69,106 +69,8 @@ header{
     color:white;
 }
 
-  /* main section */
 
-.main{
-  display: flex;
-justify-content: space-between;
-background-image: url("asset/light_background-wallpaper.jpg");
-height: 650px;
-}
 
-.main1
-{
-  width: 25rem;
-  height: 5rem;
-
-}
-.main2{
-  margin-top: 4rem;
-  width:54%;
-  height: auto;
-  
-}
-
-#typewriter {
-  font-family: 'Tilt Prism', cursive;
-  font-size: 2.5rem;;
-  font-weight: bolder;
-  white-space: nowrap; /* Keep the text in one line */
-  overflow: hidden; /* Hide overflowing text */
-  /*border-right: 0.15em solid #000; /* Add cursor effect*/
-  animation: typewriter 0s steps(40, end); /* Animation duration and steps */
-}
-
-@keyframes typewriter {
-  from {
-    width: 0; /* Start with no width */
-  }
-  to {
-    width: auto; /* Transition to full width */
-  }}
-
-  .buy{
-    border-radius: 10px;
-    padding: 15px;
-    font-weight: 500;
-    background-color: rgb(126,34,226);
-    color:white;
-    font-weight: 700;
-    text-decoration: none;
-  }
-  .buy:hover{
-    background-color: rgb(254, 181, 70);
-    color: black;
-    border-top: 3px solid black;
-    padding-bottom: 0.2rem;
-  }
-  .sell{
-    border-radius: 10px;
-    padding: 15px;
-    font-weight: 500;
-    background-color: rgb(126,34,226);
-    color:white;
-    font-weight: 700;
-    text-decoration: none;
-    margin-right: 16rem;
-  }
-  .sell:hover{
-    background-color: rgb(254, 181, 70);
-    color: black;
-    border-top: 3px solid black;
-    padding-bottom: 0.2rem
-  }
-  
-  .headstate3{
-
-    font-family: 'Bagel Fat One', cursive;
-    font-size: 2rem;
-    color: #e03168;
-  }
-  .headstate1{
-    font-family: 'Bagel Fat One', cursive;
-  font-size: 2rem;
-  color: #e03168;
-} 
-.headstate2{
-  margin-left: 19rem;
-  font-size: 2rem;
-  font-weight: 600;
-  color: black;
-  font-family: 'Bagel Fat One', cursive;
-  
-}
-.buttons{
-  display:flex;
-  justify-content: space-evenly;
-  margin-left: 7.5rem;
-}
-
-.info{
-  margin-right:2rem;
-}
 
 /* Branch section */
 
@@ -189,8 +91,8 @@ flex-wrap: wrap;
 
 }
 .branch-logo img{
-width: 210px;
-height: 190px;
+width: 110px;
+height: auto;
 
 }
 .branch-logo{
@@ -216,16 +118,6 @@ font-weight: 600;
   transform: scale(1.2);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);  border: 2px solid black;
   border-radius: 7px;
-  #semesterSelect{ 
-    background-color: rgba(147, 140, 140, 0.639) ;
-    color: black;
-    visibility: visible;
-    border-radius: 5%;
-    width: 80%;
-    margin-left: 10%;
-    padding: 4px 20px;
-    margin-bottom: 2%;
-  }
 }
 .b-name {
   /* Specify different styles for the nested boxes */
@@ -315,3 +207,15 @@ font-weight: 600;
   font-size: large;
 
 }
+
+
+
+.branch-name{
+    margin-bottom: 3rem;
+    
+    }
+    
+    .diff-branch{
+        justify-content: flex-start;
+        margin-left: 10.6rem;
+    }
