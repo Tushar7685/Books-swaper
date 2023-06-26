@@ -215,7 +215,15 @@ font-weight: 600;
     
     }
     
-    .diff-branch{
+.diff-branch{
         justify-content: flex-start;
         margin-left: 10.6rem;
     }
+
+/* for book */
+.book-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
