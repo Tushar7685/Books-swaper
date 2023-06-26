@@ -1,143 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lilita+One&family=Oswald:wght@500&family=Raleway:ital@1&family=Roboto+Mono&family=Rubik:wght@500&family=Tilt+Prism&display=swap');
-*{
-    font-family: 'Poppins',sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* outline: none;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Lilita+One&family=Oswald:wght@500&family=Raleway:ital@1&family=Roboto+Mono&family=Rubik:wght@500&family=Tilt+Prism&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: none;
     border:none;
     text-transform: capitalize;
     transition: all .2s linear;
     transition: width none; */
 }
-body{
+body {
   overflow-x: hidden;
-}  
-  /* header section */
-
-header{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom:1px solid black;
-    position: sticky;
-    top: 0rem;
-    background-color: white;
-
 }
-.logo{
+/* header section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0rem;
+  background-color: white;
+}
+.logo {
   width: 5.5rem;
   height: 4.5rem;
   margin: 0px 20px;
   padding-bottom: 5px;
-
 }
 
-.title-name{
-  font-family: 'Lilita One', cursive;
-      /* font-weight:bold; */
-    font-size: 2.5rem;
+.title-name {
+  font-family: "Lilita One", cursive;
+  /* font-weight:bold; */
+  font-size: 2.5rem;
 }
-.nav{
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.nav a{
-    text-decoration: none;
-    font-family: 'IBM Plex Serif', serif;
-    color: black;
-    font-weight: bold;
-    font-size: 1.2rem;
-    transition: all 0.5s  0s;
-}
-
-.title-bar{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: flex-start;
+.nav a {
+  text-decoration: none;
+  font-family: "IBM Plex Serif", serif;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.5s 0s;
 }
 
-.nav a:hover{
-    border-radius: 20px;
-    padding: 7px;
-    font-weight: 500;
-    background-color: rgb(126,34,226);
-    color:white;
+.title-bar {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
 }
 
+.nav a:hover {
+  border-radius: 20px;
+  padding: 7px;
+  font-weight: 500;
+  background-color: rgb(126, 34, 226);
+  color: white;
+}
 
+/* Sem logo */
+.sem-img {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/Home/asset/light_background-wallpaper.jpg);
+}
+.main2 {
+  padding: 200px;
+  font-family: "Bagel Fat One", cursive;
+  font-size: 1.5rem;
+  color: #e03168;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ce-name {
+  font-family: "Bagel Fat One", cursive;
+  font-size: 2rem;
+  color: #e03168;
+}
+.ce-sem1 {
+  margin-top: 1rem;
+  margin-top: 1rem;
+  font-family: "Bagel Fat One", cursive;
+  font-size: 1.5rem;
+  color: #e03168;
+  text-align: center;
+}
 
 
 /* Branch section */
 
-.branch-title{
+.branch-title {
   margin-top: 5rem;
   display: flex;
   font-size: 2.5rem;
-  font-family: 'Rubik', sans-serif;
-    justify-content: center;
+  font-family: "Rubik", sans-serif;
+  justify-content: center;
 }
-.branch-name{
-display: flex;
-justify-content: space-around;
-height: 300px;
-margin: 30px 40px;
-flex-wrap: wrap;
-
-
+.branch-name {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  margin: 30px 40px;
+  flex-wrap: wrap;
 }
-.branch-logo img{
-width: 110px;
-height: auto;
-
+.branch-logo img {
+  width: 110px;
+  height: auto;
 }
-.branch-logo{
+.branch-logo {
   display: flex;
   flex-direction: column;
-
 }
-.b-name{
+.b-name {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   font-size: 1.4rem;
   transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transitions for transform and box-shadow */
   border: none; /* Remove the border */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a box shadow */
-
 }
-#semesterSelect{ 
+#semesterSelect {
   visibility: hidden;
 }
 
-.branch-logo:hover{
+.branch-logo:hover {
   transform: scale(1.2);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);  border: 2px solid black;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
   border-radius: 7px;
 }
 .b-name {
   /* Specify different styles for the nested boxes */
   box-shadow: none;
   border: 0px solid none;
-  
 }
 
 .b-name:hover {
   transform: none; /* Apply zoom-in effect on hover for nested boxes */
 }
 
-.seeAll{
+.seeAll {
   display: flex;
   text-align: center;
   align-items: center;
-  display:block;
+  display: block;
   margin-top: 3rem;
 }
-.seebtn:hover{
+.seebtn:hover {
   padding: 15px;
   background-color: rgb(254, 181, 70);
   color: black;
@@ -146,19 +168,18 @@ font-weight: 600;
 
 /* popular book section */
 
-.popularBook{
+.popularBook {
   display: flex;
   justify-content: center;
 }
 
-.bookLogo{
+.bookLogo {
   padding: 2rem;
 }
 
-.bookSection{
-  background-color:beige;
+.bookSection {
+  background-color: beige;
 }
-
 
 /* footer section */
 .footer {
@@ -170,60 +191,53 @@ font-weight: 600;
   background-color: rgb(212, 105, 185);
 }
 
-.footer ul{
-  list-style:none;
+.footer ul {
+  list-style: none;
   margin: 2rem;
-
 }
 
-.footer ul a{
+.footer ul a {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
   font-weight: 600;
 }
-.footerImage{
-  display: inline-block ;
+.footerImage {
+  display: inline-block;
   padding: 0;
 }
 
-.foot ul{
+.foot ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 17vh;
 }
 
-.foot ul a:hover{
+.foot ul a:hover {
   text-decoration: underline;
   color: blue;
-
 }
-.sub-footer{
+.sub-footer {
   display: flex;
   justify-content: center;
   color: black;
   font-weight: 600;
   font-size: large;
-
 }
 
+.branch-name {
+  margin-bottom: 3rem;
+}
 
-
-.branch-name{
-    margin-bottom: 3rem;
-    
-    }
-    
-.diff-branch{
-        justify-content: flex-start;
-        margin-left: 10.6rem;
-    }
+.diff-branch {
+  justify-content: flex-start;
+  margin-left: 10.6rem;
+}
 
 /* for book */
-.book-img{
+.book-img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  
