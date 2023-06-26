@@ -73,15 +73,16 @@ header{
 
 .main{
   display: flex;
-  justify-content: space-between;
-  background-image: url("asset/light_background-wallpaper.jpg");
-  height: 650px;
+justify-content: space-between;
+background-image: url("asset/light_background-wallpaper.jpg");
+height: 650px;
 }
 
 .main1
 {
   width: 25rem;
   height: 5rem;
+
 }
 .main2{
   margin-top: 4rem;
@@ -147,7 +148,7 @@ header{
     color: #e03168;
   }
   .headstate1{
-  font-family: 'Bagel Fat One', cursive;
+    font-family: 'Bagel Fat One', cursive;
   font-size: 2rem;
   color: #e03168;
 } 
