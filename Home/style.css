@@ -25,6 +25,7 @@ header{
     position: sticky;
     top: 0rem;
     background-color: white;
+
 }
 .logo{
   width: 5.5rem;
@@ -50,6 +51,7 @@ header{
     color: black;
     font-weight: bold;
     font-size: 1.2rem;
+    transition: all 0.5s  0s;
 }
 
 .title-bar{

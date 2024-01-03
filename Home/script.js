@@ -37,7 +37,7 @@ semesterSelect.onchange = function() {
   }
 };
 
-// Reset the selected value when the page loads
+// Reset the selected value when  page loads
 window.onload = function() {
   localStorage.removeItem('selectedSemester');
   semesterSelect.value = "none";
